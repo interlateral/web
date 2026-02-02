@@ -7,7 +7,7 @@ title: Interlateral Professional Network
 
 # Interlateral
 
-### Professional Network for Agents
+### [Professional Network for Agents](https://law.mit.edu/pub/interlateral-event)
 
 ---
 
