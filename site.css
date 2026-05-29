@@ -1,0 +1,310 @@
+/* Interlateral.com — shared site styles */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.65;
+    min-height: 100vh;
+}
+
+a { color: #ddd; text-decoration: none; border-bottom: 1px solid #555; }
+a:hover { color: #fff; border-color: #888; }
+
+/* ---------- Top nav ---------- */
+.topnav {
+    background: rgba(10, 10, 10, 0.92);
+    border-bottom: 1px solid #1f1f1f;
+    padding: 0.9rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+}
+.topnav-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.topnav-brand {
+    font-size: 1rem;
+    letter-spacing: 0.25em;
+    color: #fff;
+    border-bottom: none;
+}
+.topnav-brand:hover { border-bottom: none; color: #fff; }
+.topnav-links {
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topnav-links a {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    color: #aaa;
+    border-bottom: none;
+}
+.topnav-links a:hover { color: #fff; border-bottom: none; }
+.topnav-cta {
+    background: #1a1a1a;
+    border: 1px solid #b5943e !important;
+    color: #b5943e !important;
+    padding: 0.45rem 1rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
+}
+.topnav-cta:hover {
+    background: #b5943e;
+    color: #0a0a0a !important;
+    border-color: #b5943e !important;
+}
+
+/* ---------- Layout ---------- */
+.container { max-width: 740px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+.container-wide { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+/* ---------- Hero ---------- */
+.hero { text-align: center; padding: 1rem 0 2rem; }
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    margin-bottom: 0.6rem;
+    color: #fff;
+}
+.hero .tagline {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+.hero .subtitle {
+    font-size: 1rem;
+    color: #aaa;
+    margin: 0 auto 2rem;
+    max-width: 36rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* ---------- Buttons / CTAs ---------- */
+.cta-row { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
+.btn {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid #333;
+    color: #fff;
+    background: #1a1a1a;
+    transition: all 0.2s ease;
+}
+.btn:hover { background: #252525; border-color: #444; color: #fff; }
+.btn-primary {
+    background: #b5943e;
+    border-color: #b5943e;
+    color: #0a0a0a;
+}
+.btn-primary:hover {
+    background: #d4ad4a;
+    color: #0a0a0a;
+    border-color: #d4ad4a;
+}
+
+/* ---------- Sections ---------- */
+section { margin: 3.25rem 0; }
+h2 {
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+h2.section-title {
+    font-size: 1.35rem;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #fff;
+    margin-bottom: 0.85rem;
+    font-weight: 400;
+}
+h3 { font-size: 1.05rem; color: #fff; margin: 1.25rem 0 0.55rem; font-weight: 500; }
+p { margin-bottom: 1rem; color: #ccc; }
+ul, ol { margin: 0 0 1rem 1.25rem; color: #ccc; }
+ul li, ol li { margin-bottom: 0.45rem; }
+
+/* ---------- Cards ---------- */
+.card {
+    background: #111;
+    border: 1px solid #2a2a2a;
+    padding: 1.4rem 1.65rem;
+    margin-bottom: 1.25rem;
+    border-radius: 2px;
+}
+.card .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #b5943e;
+    margin-bottom: 0.7rem;
+}
+.card .headline {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 0.55rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.card .meta { font-size: 0.88rem; color: #aaa; margin-bottom: 0.85rem; }
+.card .actions {
+    display: flex;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+}
+.card .actions a { color: #ddd; border-bottom: 1px solid #555; }
+.card .actions a:hover { color: #fff; border-color: #888; }
+
+/* ---------- Feature grid ---------- */
+.feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.feature {
+    background: #111;
+    border: 1px solid #2a2a2a;
+    padding: 1.2rem 1.4rem;
+    border-radius: 2px;
+}
+.feature h4 {
+    color: #b5943e;
+    font-size: 0.95rem;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.feature p { font-size: 0.9rem; margin-bottom: 0; color: #bbb; line-height: 1.55; }
+
+/* ---------- Videos ---------- */
+.video-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+.video-card iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: 1px solid #2a2a2a;
+    border-radius: 2px;
+    display: block;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    border-top: 1px solid #1f1f1f;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    color: #777;
+    font-size: 0.85rem;
+}
+footer a { color: #aaa; }
+
+/* ---------- Utility ---------- */
+.visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* ---------- Report styles ---------- */
+.report-actions { text-align: right; margin-bottom: 1rem; }
+.report-content { max-width: 720px; margin: 0 auto; }
+.report-content h1 {
+    font-size: 1.9rem;
+    color: #fff;
+    margin: 0.5rem 0 0.6rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.report-content h2 {
+    font-size: 1.25rem;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 2.4rem 0 0.85rem;
+    font-weight: 500;
+    padding-top: 0.6rem;
+    border-top: 1px solid #1f1f1f;
+}
+.report-content h3 {
+    font-size: 1.05rem;
+    color: #fff;
+    margin: 1.7rem 0 0.6rem;
+    font-weight: 500;
+}
+.report-content strong { color: #fff; }
+.report-content em { color: #d8d8d8; }
+.report-content blockquote {
+    border-left: 3px solid #b5943e;
+    padding: 0.6rem 1rem;
+    margin: 1.25rem 0;
+    color: #ddd;
+    background: #111;
+}
+.report-content blockquote p:last-child { margin-bottom: 0; }
+.report-content table {
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+.report-content th, .report-content td {
+    border: 1px solid #2a2a2a;
+    padding: 0.55rem 0.8rem;
+    text-align: left;
+    vertical-align: top;
+}
+.report-content th { background: #111; color: #fff; font-weight: 500; }
+.report-content code {
+    background: #1a1a1a; color: #d0d0d0; padding: 0.1em 0.3em; border-radius: 2px;
+    font-size: 0.92em;
+}
+.report-content hr { border: none; border-top: 1px solid #1f1f1f; margin: 2rem 0; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 760px) {
+    .topnav { padding: 0.75rem 1rem; }
+    .topnav-inner { flex-direction: column; gap: 0.65rem; align-items: stretch; }
+    .topnav-brand { text-align: center; font-size: 0.95rem; }
+    .topnav-links { justify-content: center; gap: 0.75rem; }
+    .topnav-links a { font-size: 0.76rem; }
+    .container, .container-wide { padding: 1.75rem 1rem 3rem; }
+    .hero h1 { font-size: 2rem; letter-spacing: 0.2em; }
+    .hero .tagline { font-size: 1.05rem; }
+    .feature-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Print (PDF generation) ---------- */
+@media print {
+    .topnav, footer, .report-actions { display: none !important; }
+    body { background: #fff; color: #1a1a1a; line-height: 1.5; }
+    .container { padding: 0; max-width: none; }
+    .report-content { max-width: none; }
+    .report-content h1, .report-content h2, .report-content h3,
+    h1, h2, h3, h4, .card .headline, .card .eyebrow, strong { color: #000 !important; }
+    .report-content h2 { border-top-color: #ccc; }
+    a { color: #000 !important; border-bottom: none !important; text-decoration: underline; }
+    .report-content blockquote { border-left-color: #888; background: #f6f6f6; color: #222; }
+    .report-content table { font-size: 0.85rem; }
+    .report-content th, .report-content td { border-color: #ccc; color: #222; }
+    .report-content th { background: #eee; }
+    .report-content code { background: #eee; color: #333; }
+    p, li { color: #222; }
+}
