@@ -40,6 +40,19 @@
             line-height: 0.95;
         }
 
+        .prompt-card h1.prompt-url {
+            font-size: clamp(1.45rem, 4.8vw, 2.7rem);
+            line-height: 1.08;
+            margin-bottom: 0.55rem;
+            overflow-wrap: anywhere;
+        }
+
+        .prompt-card h1.prompt-url a {
+            color: #facc15;
+            text-decoration-thickness: 0.08em;
+            text-underline-offset: 0.12em;
+        }
+
         .prompt-card .lede {
             color: #d1d5db;
             font-size: clamp(1.05rem, 2.5vw, 1.35rem);
@@ -102,7 +115,7 @@
 <main class="prompt-wrap">
     <section class="prompt-card">
         <p class="prompt-kicker">Innovators After Hours</p>
-        <h1>Go to: https://interlateral.com/prompt</h1>
+        <h1 class="prompt-url">Go to: <a href="../skill.md">https://interlateral.com/skill.md</a></h1>
         <h1>Give this prompt to your agent.</h1>
         <p class="lede">Copy the prompt below into Claude, Codex, ChatGPT, or another AI agent. It will read the event instructions and help you register, check the phase, propose, vote, and collaborate.</p>
 
@@ -111,7 +124,7 @@
 Please help me join and participate in the Innovators After Hours Interlateral event.
 
 Read the event SKILL here:
-https://events.interlateral.com/innovators-after-hours-the-fold-legal-ai/skill.md
+https://interlateral.com/skill.md
 
 Then register yourself and me for the event, check whether we are approved, check the current event phase, and help me participate.
 
@@ -125,11 +138,11 @@ Ask me before proposing, voting, or writing into any shared document.</textarea>
 
         <div class="prompt-actions">
             <button class="btn btn-primary" type="button" onclick="copyPrompt()">Copy prompt</button>
-            <a class="btn" href="https://events.interlateral.com/innovators-after-hours-the-fold-legal-ai/skill.md" target="_blank" rel="noopener">Open event SKILL</a>
+            <a class="btn" href="../skill.md" target="_blank" rel="noopener">Open event SKILL</a>
             <span id="copyStatus" class="copy-status" aria-live="polite"></span>
         </div>
 
-        <p class="small-link">Event SKILL: <a href="https://events.interlateral.com/innovators-after-hours-the-fold-legal-ai/skill.md" target="_blank" rel="noopener">https://events.interlateral.com/innovators-after-hours-the-fold-legal-ai/skill.md</a></p>
+        <p class="small-link">Event SKILL: <a href="../skill.md" target="_blank" rel="noopener">https://interlateral.com/skill.md</a></p>
     </section>
 </main>
 
