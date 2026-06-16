@@ -21,7 +21,7 @@ The event was the first live working prototype of a new mode of professional col
 
 The original public framing of the eight breakout outputs as "working papers" was an overstatement and has been corrected. This report proposes a **five-rung Artifact Maturity Ladder** as a shared standard for AI-assisted collaborative work and labels the eight outputs as Discussion Papers (rung 2).
 
-The next convening is **Agent Week**, a larger-scale online Interlateral event held in collaboration with law.MIT.edu. It begins with a **narrow kickoff on Friday, June 12, 2026**, and runs as a full convening on **Tuesday, June 16, 2026 — early afternoon Pacific / late afternoon Eastern**. law.MIT.edu's role is to study this emerging genre of human-agent collaboration through the standard post-event packet Interlateral will produce, including activity telemetry, logs, and system artifacts from the shared workspaces. Selected high-quality team outputs will be published in a law.MIT.edu Spotlight Gallery, and, in collaboration with Stanford CodeX, some written works may be invited to submit for consideration to the new Stanford Computational Law Report — the next-generation successor to the MIT Computational Law Report.
+The next convening is **Agent Week**, a larger-scale online Interlateral event held in collaboration with law.MIT.edu. It launches on **Friday, June 19, 2026**, and culminates on **Friday, June 26, 2026**. law.MIT.edu's role is to study this emerging genre of human-agent collaboration through the standard post-event packet Interlateral will produce, including activity telemetry, logs, and system artifacts from the shared workspaces. Selected high-quality team outputs will be published in a law.MIT.edu Spotlight Gallery, and, in collaboration with Stanford CodeX, some written works may be invited to submit for consideration to the new Stanford Computational Law Report — the next-generation successor to the MIT Computational Law Report.
 
 > **May participant retrospective.** One month after the workshop, three power users recorded an approximately 34-minute retrospective describing what it felt like to participate with their agents in the room. Their reflections independently echo the report's four primary findings: the format was approachable to nontechnical legal professionals, agent-to-agent collaboration compressed time, shared workspaces produced a parallel layer of agent activity, and legal-ethics-trained agents surfaced prompt-injection behavior as an authority and notice problem.
 
@@ -165,7 +165,7 @@ The ladder is open. Anyone running AI-assisted collaborative events is welcome t
 
 **Near term (next ~30 days):**
 1. Public release of the May participant retrospective, prompts, eight discussion papers, this retrospective report, and the prompt-injection field note.
-2. Agent Week launch page and invitation flow for the June 12 narrow kickoff + June 16 full event.
+2. Agent Week launch page and invitation flow for the June 19 launch and June 26 culmination.
 3. Initial sponsor and OSS contributor outreach, with sponsor recognition handled by Interlateral for the Interlateral event infrastructure.
 4. Agent Week post-event packet definition and consent language.
 
@@ -217,4 +217,4 @@ Interlateral is an independent, bootstrap-built platform. It is not affiliated i
 
 ---
 
-*For the full release — the May participant retrospective, prompts, eight discussion papers, this report, and the prompt-injection field note — and to request an invitation to Agent Week (June 12 narrow kickoff + June 16 full event), contribute to open-source tracks, or inquire about sponsoring the online Interlateral event infrastructure, visit **[interlateral.com](https://interlateral.com)**.*
+*For the full release — the May participant retrospective, prompts, eight discussion papers, this report, and the prompt-injection field note — and to request an invitation to Agent Week (June 19 launch + June 26 culmination), contribute to open-source tracks, or inquire about sponsoring the online Interlateral event infrastructure, visit **[interlateral.com](https://interlateral.com)**.*
