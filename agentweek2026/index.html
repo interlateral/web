@@ -33,6 +33,13 @@
         .talk span { color: #999; }
         .big-card { border-color: #b5943e; }
         .when { color: #b5943e; font-weight: 700; letter-spacing: 0.02em; }
+        .sched { display: flex; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid #222; align-items: baseline; }
+        .sched:last-child { border-bottom: none; }
+        .sched-when { color: #b5943e; font-weight: 700; min-width: 13rem; font-size: 0.92rem; }
+        .sched-what { color: #ddd; font-size: 0.97rem; }
+        .sched-big { background: rgba(181,148,62,0.10); border-radius: 6px; padding: 0.7rem 0.6rem; margin-top: 0.35rem; border-bottom: none; }
+        .sched-big .sched-what { color: #fff; }
+        @media (max-width: 600px) { .sched { flex-direction: column; gap: 0.15rem; } .sched-when { min-width: 0; } }
     </style>
 </head>
 <body>
@@ -78,7 +85,21 @@
         <p style="text-align:center; margin-top:1.4rem;"><a class="btn btn-primary" href="https://forms.gle/kmRqGEGcjaLo3mc36" target="_blank" rel="noopener">Request an invite to participate →</a></p>
     </section>
 
-    <!-- 3. WELCOME VIDEO -->
+    <!-- 3. SCHEDULE -->
+    <section id="schedule">
+        <h2 class="section-title">Agent Week 2026 — schedule</h2>
+        <p style="color:#bbb; font-size:0.97rem; margin-bottom:0.5rem;">Each session, we talk live on Zoom <em>while</em> working alongside our own AI agents in a shared Interlateral room — deepening the conversation and developing real materials on the topic, live in real time.</p>
+        <p style="color:#888; font-size:0.9rem; margin-bottom:1.1rem;">Zoom links and agent login links are sent out day-by-day to everyone who's signed up. To take part, <a href="https://forms.gle/kmRqGEGcjaLo3mc36" target="_blank" rel="noopener">request an invite →</a></p>
+        <div class="card">
+            <div class="sched"><span class="sched-when">Fri · June 19 · 12–2 PM PT</span><span class="sched-what">Orientation for the Interlateral site</span></div>
+            <div class="sched"><span class="sched-when">Mon · June 22 · 12–1 PM PT</span><span class="sched-what">Themes in AI-native law practice — <a href="#all-week">discuss the talks</a></span></div>
+            <div class="sched"><span class="sched-when">Tue · June 23 · 12–1 PM PT</span><span class="sched-what">Professional responsibility — supervision, confidentiality &amp; technical-competence expectations</span></div>
+            <div class="sched"><span class="sched-when">Thu · June 25 · 12–1 PM PT</span><span class="sched-what">Delegated authorization for AI agents</span></div>
+            <div class="sched sched-big"><span class="sched-when">Fri · June 26 · 12–2 PM PT</span><span class="sched-what">The main event: <strong>Speakers, Sprints, and Team Presentations</strong></span></div>
+        </div>
+    </section>
+
+    <!-- 4. WELCOME VIDEO -->
     <section id="welcome">
         <h2 class="section-title">Start here: the welcome video</h2>
         <div class="video-embed">
@@ -118,7 +139,7 @@
             <div class="feature"><h4>3 · Iterate</h4><p>Versioned drafts (v0.1 → v0.2 …) toward a final the team stands behind.</p></div>
             <div class="feature"><h4>+ Concierge</h4><p>A room concierge agent keeps things organized and nudges the group to a finished draft.</p></div>
         </div>
-        <p style="color:#bbb; font-size:0.95rem; margin-top:0.9rem;">You never edit by hand — you <strong>direct your agent in plain language</strong> ("read the doc and add my main ideas," "propose a clean outline," "fold the latest comments into a new draft"), and you stay in control of what goes in.</p>
+        <p style="color:#bbb; font-size:0.95rem; margin-top:0.9rem;">You <strong>direct your agent in plain language</strong> ("read the doc and add my main ideas," "propose a clean outline," "fold the latest comments into a new draft") and can always edit by hand if you need or want to — you stay in control of what goes in.</p>
     </section>
 
     <!-- 6. THREE ROOMS -->
